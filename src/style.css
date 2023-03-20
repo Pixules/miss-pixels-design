@@ -1,11 +1,67 @@
+:root {
+  --first-colour: #9fb8ad;
+  --second-colour: #889eaf;
+  --third-colour: #f2d7d9;
+  --other-colour: #f5efe6;
+  --gradient: radial-gradient(
+    343px at 46.3% 47.5%,
+    rgb(242, 242, 242) 0%,
+    rgb(241, 241, 241) 72.9%
+  );
+
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
   padding-top: 50px;
+  background: var(--gradient);
+  background-attachment: fixed;
 }
 
 h1 {
   font-family: "Quicksand", sans-serif;
+  font-size: 94px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-right: 15px;
 }
 
-h3 {
+h3,
+h2 {
+  font-family: "Electrolize", sans-serif;
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+p {
   font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background: var(--third-colour);
+  text-align: end;
+}
+
+.navigation {
+  display: flex;
+  margin-top: 40px;
+  justify-content: end;
+}
+
+.navigation a {
+  margin: 16px;
+  border-radius: 5px;
+  padding: 16px 11px;
+  text-decoration: none;
+}
+
+.contact {
+  background: var(--second-colour);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.contact:hover {
+  transform: scale(1.05);
+  transition: all 130ms ease-in-out;
 }
