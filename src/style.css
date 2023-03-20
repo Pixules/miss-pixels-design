@@ -38,14 +38,16 @@ h2 {
 
 p {
   font-family: var(--font-main);
-  font-size: 16px;
+  font-size: 15px;
   text-align: left;
+  line-height: 1.5;
 }
 
 footer {
   text-align: center;
   font-size: 22px;
   color: var(--first-colour);
+  margin-top: 20px;
 }
 
 @media (max-width: 576px) {
@@ -53,7 +55,7 @@ footer {
     font-size: 78px;
   }
   h2 {
-    font-size: 13px;
+    font-size: 12px;
   }
   p {
     font-size: 13.5px;
@@ -87,4 +89,38 @@ footer {
 .contact:hover {
   transform: scale(1.05);
   transition: all 130ms ease-in-out;
+}
+
+.container {
+  padding: 1.1em;
+}
+
+.content {
+  background: var(--other-colour);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project-btn {
+  border-radius: 5px;
+  padding: 18px 13px;
+  text-decoration: none;
+  background: var(--second-colour);
+  box-shadow: var(--box-shadow);
+  color: white;
+  justify-content: start;
+}
+
+.project-btn:hover {
+  opacity: 0.8;
+  transition: all 130ms ease-in-out;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.footer-details {
+  font-size: 12px;
+  text-align: center;
 }
