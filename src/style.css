@@ -166,6 +166,17 @@ footer a {
   font-size: 38px;
 }
 
+.email-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #737b82;
+}
+
+.email-link:hover {
+  transition: all 130ms ease-in-out;
+  color: #709e8a;
+}
+
 .footer-details {
   font-size: 12px;
   text-align: center;
