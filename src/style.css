@@ -82,8 +82,12 @@ footer a {
 }
 
 .about-section {
-  padding: 50px 130px;
+  padding: 40px 120px;
   text-align: center;
+}
+
+.about-content {
+  margin: 1em;
 }
 
 .about-content h1 {
@@ -148,6 +152,18 @@ footer a {
 
 .img-fluid {
   max-width: 85%;
+}
+
+.contact-box {
+  max-width: 700px;
+  margin: 2em;
+  background-color: var(--third-colour);
+  padding: 30px 120px;
+  border-radius: 15px;
+}
+
+.contact-box h3 {
+  font-size: 38px;
 }
 
 .footer-details {
