@@ -81,22 +81,22 @@ footer a {
   text-align: end;
 }
 
-.about-section {
+.content-container {
   padding: 40px 120px;
   text-align: center;
 }
 
-.about-content {
+.inner-content {
   margin: 1em;
 }
 
-.about-content h1 {
+.inner-content h1 {
   font-size: 64px;
   line-height: 1.3;
   text-align: end;
 }
 
-.about-section img {
+.content-container img {
   border-radius: 35px;
   box-shadow: var(--box-shadow);
 }
