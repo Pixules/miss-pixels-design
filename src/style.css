@@ -9,6 +9,12 @@
     rgb(241, 241, 241) 72.9%
   );
 
+  --second-gradient: linear-gradient(
+    243deg,
+    rgb(255, 253, 221) 13.4%,
+    rgb(248, 215, 215) 82.1%
+  );
+
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font-main: "Roboto", sans-serif;
   --font-heading: "Quicksand", sans-serif;
@@ -76,9 +82,14 @@ footer a {
   }
 }
 
+.navbar-brand {
+  font-family: var(--font-subheading);
+}
+
 .hero {
   background: var(--third-colour);
   text-align: end;
+  border: double;
 }
 
 .content-container {
@@ -155,9 +166,8 @@ footer a {
 }
 
 .contact-box {
-  max-width: 700px;
   margin: 2em;
-  background-color: var(--third-colour);
+  background: var(--second-gradient);
   padding: 30px 120px;
   border-radius: 15px;
 }
