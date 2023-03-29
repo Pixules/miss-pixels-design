@@ -93,12 +93,8 @@ footer a {
 }
 
 .content-container {
-  padding: 40px 120px;
+  padding: 30px 90px;
   text-align: center;
-}
-
-.inner-content {
-  margin: 1em;
 }
 
 .inner-content h1 {
