@@ -67,21 +67,6 @@ footer a {
   color: var(--first-colour);
 }
 
-@media (max-width: 576px) {
-  .inner-content h1 {
-    font-size: 44px;
-  }
-  h1 {
-    font-size: 74px;
-  }
-  h2 {
-    font-size: 12px;
-  }
-  p {
-    font-size: 12px;
-  }
-}
-
 .navbar-brand {
   font-family: var(--font-subheading);
 }
@@ -199,4 +184,19 @@ footer a {
 
 .footer-details a {
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .inner-content h1 {
+    font-size: 44px;
+  }
+  h1 {
+    font-size: 74px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
 }
